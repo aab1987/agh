@@ -1,5 +1,5 @@
 .container {
-  max-width: 1000px;
+  max-width: 1108px;
 }
 
 .jumbotron {
@@ -7,69 +7,53 @@
 }
 
 .centered {
-  text-align: center;
-
+  text-align: justify;
 }
 
 h3 {
   font-size: 25px;
   margin: 27px auto 60px auto;
-padding: 0 60px;
-max-width: 780px;
-color: #686868;
-line-height: 38px;
-
+  padding: 0 60px;
+  max-width: 780px;
+  color: #686868;
+  line-height: 38px;
 }
+
 h3 {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-font-weight: 300;
+  font-weight: 300;
 }
 
 h1 {
   font-family: "ProximaNovaLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-font-weight: 400;
-margin: 0 auto;
-width: 100%;
-font-size: 36px;
-color: #333333;
-position: absolute;
-bottom: 0;
-text-align: center;
-text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 36px;
+  color: #333333;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .navbar-collapse {
   width: auto;
-border-top: 0;
-box-shadow: none;
-display: block !important;
-height: auto !important;
-padding-bottom: 0;
-overflow: visible !important;
--webkit-font-smoothing: antialiased;
-max-height: 340px;
-overflow-x: visible;
-padding-right: 15px;
-padding-left: 15px;
-text-transform: uppercase;
-
-}
-.active {
-  border-bottom: 1px solid;
-  color: #6B94B4;
-  background: none;
+  border-top: 0;
+  box-shadow: none;
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+  -webkit-font-smoothing: antialiased;
+  max-height: 340px;
+  overflow-x: visible;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-transform: uppercase;
 }
 
-a:-webkit-any-link {
-color: -webkit-link;
-text-decoration: underline;
-cursor: auto;
-margin: 0;
-padding: 0;
-font-style: normal;
-font-variant: normal;
-text-decoration: none;
-opacity: 0.99;
-color: #6B94B4;
+.nav.navbar-nav li a:hover {
+  background:none;
+  border-bottom: 1px solid #428bca;
 }
-

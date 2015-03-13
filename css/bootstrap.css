@@ -4082,6 +4082,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   -webkit-overflow-scrolling: touch;
 }
 
+
+
+
 .navbar-collapse:before,
 .navbar-collapse:after {
   display: table;
@@ -4434,7 +4437,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-color: #e6e6e6;
 }
 
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown >
+.caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
   border-top-color: #333333;
   border-bottom-color: #333333;
