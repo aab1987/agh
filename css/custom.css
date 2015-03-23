@@ -1,5 +1,10 @@
+body {
+ background-color:white;
+ font-size: 17px;
+}
+
 .container {
-  max-width: 1108px;
+  max-width: 1440px;
 }
 
 .jumbotron {
@@ -58,97 +63,9 @@ h1 {
   border-bottom: 1px solid #428bca;
 }
 
-.form-signin
-{
-    max-width: 330px;
-    padding: 15px;
-    margin: 0 auto;
-}
-.form-signin .form-signin-heading, .form-signin .checkbox
-{
-    margin-bottom: 10px;
-}
-.form-signin .checkbox
-{
-    font-weight: normal;
-}
-.form-signin .form-control
-{
-    position: relative;
-    font-size: 16px;
-    height: auto;
-    padding: 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.form-signin .form-control:focus
-{
-    z-index: 2;
-}
-.form-signin input[type="text"]
-{
-    margin-bottom: -1px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.form-signin input[type="password"]
-{
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-.account-wall
-{
-    margin-top: 20px;
-    padding: 40px 0px 20px 0px;
-    background-color: #f7f7f7;
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
-}
-.login-title
-{
-    color: #555;
-    font-size: 18px;
-    font-weight: 400;
-    display: block;
-}
-.profile-img
-{
-    width: 96px;
-    height: 96px;
-    margin: 0 auto 10px;
-    display: block;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-.need-help
-{
-    margin-top: 10px;
-}
-.new-account
-{
-    display: block;
-    margin-top: 10px;
-}
-
-.centered-form{
-  margin-top: 60px;
-}
-
-.centered-form .panel{
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
-}
 
 .btn .btn-info .btn-block {
   background-color: black;
-}
-
-body {
- background-color:white;
 }
 
 #pinBoot {
@@ -167,9 +84,6 @@ img {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
   padding: 10px;
 }
-/*
-stylize any heading tags withing white-panel below
-*/
 
 .white-panel h1 {
   font-size: 1em;
@@ -188,4 +102,64 @@ stylize any heading tags withing white-panel below
 
 .well-sm {
   margin-top: 50px;
+}
+
+.border-top {
+  border-top: 1px solid #e3e3e3
+}
+
+.section-title {
+  margin-bottom: 9px;
+  position: relative;
+  margin-bottom: 25px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+form.big-form {
+    margin: 30px 0 50px 0
+}
+
+form.big-form input[type="text"],
+form.big-form textarea {
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    background: #f0f0f0;
+    border-radius: 0;
+    margin-bottom: 22px;
+    font-size: 20px;
+    padding: 17px 22px
+}
+
+form.big-form textarea {
+    height: 190px
+}
+
+form.big-form input[type="text"],
+form.big-form textarea {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    width: 100%
+}
+
+form.big-form p {
+    margin: 0;
+    text-align: center
+}
+
+.contact-section form.big-form input[type="text"],
+.contact-section form.big-form textarea {
+    border-radius: 4px;
+    border: 2px solid #e3e3e3;
+    background: #fafafa;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.modal-dialog {
+  width: 850px;
 }
