@@ -1,5 +1,5 @@
 body {
- background-color:white;
+ background-color: white;
  font-size: 17px;
 }
 
@@ -13,6 +13,10 @@ body {
 
 .centered {
   text-align: justify;
+}
+
+.circle-mask {
+  -webkit-mask-box-image: url(mask.png);
 }
 
 h3 {
@@ -163,3 +167,4 @@ fieldset {
 .modal-dialog {
   width: 850px;
 }
+
