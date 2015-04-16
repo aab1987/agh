@@ -1,6 +1,7 @@
 body {
- background-color: white;
+ background-image: url(../img/bg.jpg);
  font-size: 17px;
+ background-size: cover;
 }
 
 .container {
@@ -13,10 +14,6 @@ body {
 
 .centered {
   text-align: justify;
-}
-
-.circle-mask {
-  -webkit-mask-box-image: url(mask.png);
 }
 
 h3 {
@@ -39,7 +36,7 @@ h1 {
   margin: 0 auto;
   width: 100%;
   font-size: 36px;
-  color: #333333;
+  color: #666;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -168,10 +165,10 @@ fieldset {
   width: 850px;
 }
 
-
 div#carousel {
   perspective: 1200px;
-  background: white;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
   padding-top: 2%;
   font-size:0;
   margin-bottom: 1rem;
@@ -204,9 +201,25 @@ div#carousel ~ span {
   display: inline-block;
   text-decoration: none;
   font-size: 2rem;
-  transition: 0.6s color;
+  transition: 1.6s color;
   position: relative;
   margin-top: -6rem;
   border-bottom: none;
-  line-height: 0; }
-div#carousel ~ span:hover { color: #888; cursor: pointer; }
+  line-height: 0;
+   }
+ span:hover { color: #888; cursor: pointer; }
+
+
+.partners {
+  width: 200px;
+  margin:0 auto;
+}
+
+span {
+  margin: 40px;
+}
+
+.click {
+  margin-bottom: 40px;
+}
+
